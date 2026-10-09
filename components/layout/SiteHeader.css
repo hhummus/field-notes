@@ -1,0 +1,30 @@
+.site-header {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.site-header__inner {
+  min-height: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: var(--space-md);
+}
+
+.site-header__brand,
+.site-header__nav {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-header__brand {
+  font-weight: 600;
+}
+
+.site-header__nav {
+  display: flex;
+  gap: var(--space-md);
+}
